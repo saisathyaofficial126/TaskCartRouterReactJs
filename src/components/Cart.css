@@ -1,0 +1,121 @@
+.cart-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+.cart-page h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cart-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cart-card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.cart-card-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    gap: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+
+.cart-card-info h2 {
+    margin: 0;
+    font-size: 25px;
+    color: #333;
+   
+}
+
+.cart-card-info p {
+    margin: 0;
+    flex: 1 1 150px;
+    color: #333;
+     gap: 20px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quantity-controls button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+}
+
+.quantity-controls button:hover {
+    background-color: #2980b9;
+  }
+
+.remove-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.cart-summary {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-summary p,
+.cart-summary h2 {
+    margin: 10px 0;
+    color: #222;
+}
+
+.buynow-button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}

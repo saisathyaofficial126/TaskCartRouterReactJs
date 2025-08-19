@@ -1,0 +1,35 @@
+.product-list-container {
+  padding: 20px;
+}
+
+.discount-banner {
+   background: linear-gradient(to right, #ec008c, #fc6767);
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.Product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1.5rem;
+    padding: 1rem;
+  }
+
+ 
+  @media (max-width: 1024px) {
+    .Product-list {
+      grid-template-columns: repeat(2, 1fr); /* Tablets */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .Product-list {
+      grid-template-columns: repeat(1, 1fr); /* Mobile */
+    }
+  }
